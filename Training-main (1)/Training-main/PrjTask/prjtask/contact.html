@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crown</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="Task1.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="../asserts/Logo1.jpg" alt="Logo" class="logo">
+            <span class="logo-name">Crown</span>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </div>
+    </header>
+    <div class="navbar">
+        <nav>
+           <ul class="nav nav-pills">
+        <li class="nav-item"><a href="Task.html"  class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="jwell.html" target="_blank" class="nav-link">Jewels</a></li>
+        <li class="nav-item"><a href="contact.html" target="_blank" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="About.html" target="_blank" class="nav-link">About</a></li>
+      </ul>
+    
+        </nav>
+        </div>
+    <div class="container">
+        <h1>WE'D LOVE TO HEAR FROM YOU!</h1>
+        <p>From choosing an engagement ring or gift to providing in-store appointments and suggestions, our PRIDE client experts are pleased to assist you in any way.</p>
+        <form action="#" method="post">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number *</label>
+            <div class="phone-input">
+                <select id="country-code" name="country-code">
+                    <option value="+91">+91</option>
+                   
+                </select>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <label for="enquiry">Enquiry Type *</label>
+            <select id="enquiry" name="enquiry" required>
+                <option value="">Select</option>
+               
+                
+            </select>
+
+            <label for="message">Feedback *</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <br>
+            <div class="gallery">
+                <img src="../asserts/gold2.jpg" alt="Image 1">
+              </div>
+
+            <div class="checkboxes">
+                <label>
+                    <input type="checkbox" name="updates"> I would like to receive updates from PRIDE Jewellers using any method(s) I have provided above.
+                </label>
+                <label>
+                    <input type="checkbox" name="privacy" required> By submitting this form, I certify that I have read and accepted the Privacy Policy of PRIDE Jewellers.
+                </label>
+            </div>
+
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+  
+
+    <footer>
+        <div class="footer-container">
+            <div class="payment-methods">
+                <h4>You Can Pay by</h4>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Paypal_2014_logo.png" alt="Visa">
+                <img src="https://logowik.com/content/uploads/images/visa-new-20215093.jpg" alt="American Express">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Maestro_logo.png" alt="PayPal">
+                <img src="https://i.pinimg.com/originals/8d/ec/e1/8dece15cc40aaf66ed47f6591b639d06.png" alt="Maestro">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="separator">
+                <span></span>
+                
+                <span></span>
+            </div>
+            <p>&copy; Created by Ravindiran</p>
+        </div>
+    </footer>
+</body>
+</html>
